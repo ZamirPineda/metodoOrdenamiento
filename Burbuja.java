@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 import javax.swing.JOptionPane;
 
-public class App {
+public class Burbuja {
     public static void main(String[] args) throws Exception {
         Scanner entrada = new Scanner(System.in);
         int arreglo[], nElementos, aux;
