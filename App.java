@@ -30,10 +30,11 @@ public class App {
         System.out.print("\nArreglo ordenado en forma creciente: ");
         for(int i=0;i<nElementos;i++){
             System.out.print(arreglo[i]+" - ");
-    }
-    System.out.print("\nArreglo ordenado en forma decreciente: ");
-    for(int i=(nElementos-1);i>=0;i--){
-        System.out.print(arreglo[i]+" - ");
-    }
-  }
+         }
+        //Ordenado de forma decreciente
+         System.out.print("\nArreglo ordenado en forma decreciente: ");
+         for(int i=(nElementos-1);i>=0;i--){
+            System.out.print(arreglo[i]+" - ");
+         }
+     }
 }
